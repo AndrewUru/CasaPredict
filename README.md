@@ -1,6 +1,6 @@
 # Predicción Precio Vivienda
 
-_Descubre el valor estimado de tu futuro hogar._
+_Valor estimado de tu futuro hogar._
 
 Este proyecto es una aplicación web para **predecir el precio estimado de vivienda en España** utilizando técnicas de _machine learning_. Consta de un **backend** desarrollado en FastAPI que expone endpoints REST para obtener predicciones de precio, y un **frontend** creado con Astro y React que permite a los usuarios ingresar datos (como la comunidad autónoma) y ver el resultado de la predicción de forma interactiva. El modelo de predicción es una regresión lineal entrenada con _Scikit-Learn_ utilizando datos históricos del mercado inmobiliario (por ejemplo, precios medios por comunidad autónoma provenientes del archivo CSV proporcionado). Esto permite ofrecer estimaciones basadas en datos reales de las distintas regiones de España.
 
@@ -99,4 +99,4 @@ Si la aplicación está correctamente conectada, cada vez que selecciones una re
 
 **Licencia:** Este proyecto se distribuye bajo la licencia MIT, lo que significa que puedes utilizar, copiar y modificar libremente el código respetando los términos de dicha licencia. Para más detalles, consulta el archivo `LICENSE` incluido en el repositorio (si está disponible) o el texto de la licencia MIT en internet.
 
-**Autor:** _\[Tu Nombre]_ – Desarrollador del proyecto **Predicción Precio Vivienda**. Si tienes preguntas, sugerencias o comentarios sobre el proyecto, no dudes en contactarme o crear un issue en el repositorio. ¡Gracias por probar esta aplicación!
+**Autor:** _atobio459@gmail.com_ – Desarrollador del proyecto **Predicción Precio Vivienda**. Si tienes preguntas, sugerencias o comentarios sobre el proyecto, no dudes en contactarme o crear un issue en el repositorio. ¡Gracias por probar esta aplicación!
