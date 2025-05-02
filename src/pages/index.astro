@@ -1,16 +1,77 @@
 ---
-
+import PredictForm from "../components/PredictForm.jsx";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predicción Precio Vivienda</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <div class="landing-container">
+        
+        <header class="landing-header">
+            <h1>Predicción de Precio de Vivienda en España</h1>
+            <p class="tagline">Descubre el valor estimado de tu futuro hogar.</p>
+        </header>
+
+        <main>
+            <section class="prediction-form-section">
+                <h2>Calcula el precio medio por comunidad</h2>
+                <PredictForm client:only="react" />
+            </section>
+
+            <section class="benefits-section">
+                <h2>¿Por qué utilizar nuestra herramienta?</h2>
+                <div class="benefits-grid">
+                    <article class="benefit-item">
+                        <h3>Información Precisa</h3>
+                        <p>Estimaciones basadas en datos actualizados del mercado inmobiliario español.</p>
+                    </article>
+                    <article class="benefit-item">
+                        <h3>Fácil de Usar</h3>
+                        <p>Interfaz intuitiva y sencilla para cualquier usuario.</p>
+                    </article>
+                    <article class="benefit-item">
+                        <h3>Ahorra Tiempo</h3>
+                        <p>Evita largas investigaciones y obtén valoraciones rápidas.</p>
+                    </article>
+                    <article class="benefit-item">
+                        <h3>Decisiones Informadas</h3>
+                        <p>Ideal para compradores, vendedores e inversores.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="tech-stack-section">
+                <h2>Tecnología que impulsa esta herramienta</h2>
+                <ul class="tech-list">
+                    <li><strong>Frontend:</strong> Astro + React + CSS personalizado.</li>
+                    <li><strong>Backend:</strong> FastAPI (Python) con Scikit-Learn.</li>
+                    <li><strong>Datos:</strong> CSV públicos de precios históricos.</li>
+                    <li><strong>Despliegue:</strong> Vite + Uvicorn.</li>
+                    <li><strong>Preparado para:</strong> integración futura con OpenAI.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="landing-footer">
+            <p>&copy; 2025 Predicción Precio Vivienda España</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <div class="chat-bubble" onclick="alert('Próximamente chat AI de voz 🤖')">
+            💬
+        </div>
+    </div>
+</body>
 </html>
