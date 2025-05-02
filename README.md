@@ -6,6 +6,8 @@ Este proyecto es una aplicación web para **predecir el precio estimado de vivie
 
 &#x20;_Interfaz de la aplicación mostrando la selección de la comunidad autónoma "Cantabria" y el precio estimado devuelto por el sistema (1508.37 €)._ La interfaz presenta un diseño sencillo: un campo desplegable para elegir la comunidad autónoma y un botón **“Predecir Precio”** para obtener la estimación. Tras enviar la consulta, el resultado (el **precio promedio estimado** de la vivienda en dicha región) se muestra resaltado debajo del botón, facilitando al usuario la comprensión del valor obtenido.
 
+blob:https://chatgpt.com/f59fc022-12da-43a9-9e78-99823a3f3a20
+
 ## Estructura del proyecto
 
 El repositorio está organizado en directorios para separar el frontend, backend y los artefactos de datos/modelo entrenado:
